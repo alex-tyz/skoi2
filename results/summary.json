@@ -1,0 +1,262 @@
+[
+  {
+    "video": "mona-lisa.avi",
+    "width": 640,
+    "height": 360,
+    "input_fps": 29.97,
+    "video_duration_seconds": 18.619,
+    "expected_frames": 558,
+    "frames": 558,
+    "complete": true,
+    "initial_quad": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        639.0,
+        0.0
+      ],
+      [
+        639.0,
+        359.0
+      ],
+      [
+        0.0,
+        359.0
+      ]
+    ],
+    "label": "Mona Lisa",
+    "reference_descriptors": 569,
+    "modes": {
+      "initial": 1,
+      "detect": 251,
+      "flow": 306,
+      "lost": 0
+    },
+    "frames_with_polygon": 558,
+    "updated_frames": 557,
+    "updated_after_initial_percent": 100.0,
+    "processing_seconds": 56.006,
+    "processing_fps": 9.96,
+    "encoding_seconds": 3.834,
+    "output_codec": "h264",
+    "median_reprojection_px": 0.4189,
+    "versions": {
+      "python": "3.12.6",
+      "opencv": "5.0.0",
+      "numpy": "2.5.4"
+    },
+    "parameters": {
+      "reference_scales": [
+        1,
+        0.5,
+        0.25
+      ],
+      "sift_features": 2000,
+      "ratio": 0.75,
+      "ransac_px": 3,
+      "detect_inliers": 12,
+      "flow_inliers": 8,
+      "min_inlier_ratio": 0.35,
+      "min_reference_coverage": 0.01,
+      "forward_backward_px": 1.5,
+      "threads": 4
+    }
+  },
+  {
+    "video": "mona-lisa-blur.avi",
+    "width": 640,
+    "height": 360,
+    "input_fps": 29.97,
+    "video_duration_seconds": 18.619,
+    "expected_frames": 558,
+    "frames": 558,
+    "complete": true,
+    "initial_quad": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        639.0,
+        0.0
+      ],
+      [
+        639.0,
+        359.0
+      ],
+      [
+        0.0,
+        359.0
+      ]
+    ],
+    "label": "Mona Lisa",
+    "reference_descriptors": 569,
+    "modes": {
+      "initial": 1,
+      "detect": 232,
+      "flow": 324,
+      "lost": 1
+    },
+    "frames_with_polygon": 557,
+    "updated_frames": 556,
+    "updated_after_initial_percent": 99.82,
+    "processing_seconds": 25.729,
+    "processing_fps": 21.69,
+    "encoding_seconds": 1.65,
+    "output_codec": "h264",
+    "median_reprojection_px": 0.4155,
+    "versions": {
+      "python": "3.12.6",
+      "opencv": "5.0.0",
+      "numpy": "2.5.4"
+    },
+    "parameters": {
+      "reference_scales": [
+        1,
+        0.5,
+        0.25
+      ],
+      "sift_features": 2000,
+      "ratio": 0.75,
+      "ransac_px": 3,
+      "detect_inliers": 12,
+      "flow_inliers": 8,
+      "min_inlier_ratio": 0.35,
+      "min_reference_coverage": 0.01,
+      "forward_backward_px": 1.5,
+      "threads": 4
+    }
+  },
+  {
+    "video": "mona-lisa-blur-extra-credit.avi",
+    "width": 640,
+    "height": 360,
+    "input_fps": 29.97,
+    "video_duration_seconds": 18.619,
+    "expected_frames": 558,
+    "frames": 558,
+    "complete": true,
+    "initial_quad": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        639.0,
+        0.0
+      ],
+      [
+        639.0,
+        359.0
+      ],
+      [
+        0.0,
+        359.0
+      ]
+    ],
+    "label": "Mona Lisa",
+    "reference_descriptors": 568,
+    "modes": {
+      "initial": 1,
+      "detect": 226,
+      "flow": 327,
+      "lost": 4
+    },
+    "frames_with_polygon": 554,
+    "updated_frames": 553,
+    "updated_after_initial_percent": 99.28,
+    "processing_seconds": 24.992,
+    "processing_fps": 22.33,
+    "encoding_seconds": 1.644,
+    "output_codec": "h264",
+    "median_reprojection_px": 0.3407,
+    "versions": {
+      "python": "3.12.6",
+      "opencv": "5.0.0",
+      "numpy": "2.5.4"
+    },
+    "parameters": {
+      "reference_scales": [
+        1,
+        0.5,
+        0.25
+      ],
+      "sift_features": 2000,
+      "ratio": 0.75,
+      "ransac_px": 3,
+      "detect_inliers": 12,
+      "flow_inliers": 8,
+      "min_inlier_ratio": 0.35,
+      "min_reference_coverage": 0.01,
+      "forward_backward_px": 1.5,
+      "threads": 4
+    }
+  },
+  {
+    "video": "my_video.mp4",
+    "width": 720,
+    "height": 1280,
+    "input_fps": 30.010248488719235,
+    "video_duration_seconds": 14.962,
+    "expected_frames": 449,
+    "frames": 449,
+    "complete": true,
+    "initial_quad": [
+      [
+        60.0,
+        131.0
+      ],
+      [
+        687.0,
+        130.0
+      ],
+      [
+        734.0,
+        1049.0
+      ],
+      [
+        34.0,
+        1060.0
+      ]
+    ],
+    "label": "Book",
+    "reference_descriptors": 2969,
+    "modes": {
+      "initial": 1,
+      "detect": 448,
+      "flow": 0,
+      "lost": 0
+    },
+    "frames_with_polygon": 449,
+    "updated_frames": 448,
+    "updated_after_initial_percent": 100.0,
+    "processing_seconds": 105.5,
+    "processing_fps": 4.26,
+    "encoding_seconds": 2.779,
+    "output_codec": "h264",
+    "median_reprojection_px": 0.6128,
+    "versions": {
+      "python": "3.12.6",
+      "opencv": "5.0.0",
+      "numpy": "2.5.4"
+    },
+    "parameters": {
+      "reference_scales": [
+        1,
+        0.5,
+        0.25
+      ],
+      "sift_features": 2000,
+      "ratio": 0.75,
+      "ransac_px": 3,
+      "detect_inliers": 12,
+      "flow_inliers": 8,
+      "min_inlier_ratio": 0.35,
+      "min_reference_coverage": 0.01,
+      "forward_backward_px": 1.5,
+      "threads": 4
+    }
+  }
+]

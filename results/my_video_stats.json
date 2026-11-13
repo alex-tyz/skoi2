@@ -1,0 +1,65 @@
+{
+  "video": "my_video.mp4",
+  "width": 720,
+  "height": 1280,
+  "input_fps": 30.010248488719235,
+  "video_duration_seconds": 14.962,
+  "expected_frames": 449,
+  "frames": 449,
+  "complete": true,
+  "initial_quad": [
+    [
+      60.0,
+      131.0
+    ],
+    [
+      687.0,
+      130.0
+    ],
+    [
+      734.0,
+      1049.0
+    ],
+    [
+      34.0,
+      1060.0
+    ]
+  ],
+  "label": "Book",
+  "reference_descriptors": 2969,
+  "modes": {
+    "initial": 1,
+    "detect": 448,
+    "flow": 0,
+    "lost": 0
+  },
+  "frames_with_polygon": 449,
+  "updated_frames": 448,
+  "updated_after_initial_percent": 100.0,
+  "processing_seconds": 105.5,
+  "processing_fps": 4.26,
+  "encoding_seconds": 2.779,
+  "output_codec": "h264",
+  "median_reprojection_px": 0.6128,
+  "versions": {
+    "python": "3.12.6",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4"
+  },
+  "parameters": {
+    "reference_scales": [
+      1,
+      0.5,
+      0.25
+    ],
+    "sift_features": 2000,
+    "ratio": 0.75,
+    "ransac_px": 3,
+    "detect_inliers": 12,
+    "flow_inliers": 8,
+    "min_inlier_ratio": 0.35,
+    "min_reference_coverage": 0.01,
+    "forward_backward_px": 1.5,
+    "threads": 4
+  }
+}
